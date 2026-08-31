@@ -118,7 +118,7 @@ main{padding-top:128px}
 .expert{margin-top:88px;background:var(--navy);color:#fff;padding:0 40px;text-align:center;min-height:315px;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .expert h2{font-family:'Mesmerize',sans-serif;font-weight:300;font-size:32px;line-height:48px;color:#fff;letter-spacing:0;text-transform:uppercase;margin:0 0 12px}
 .expert p{font-family:'Myriad Pro',sans-serif;font-weight:300;font-size:16px;line-height:24px;color:rgba(255,255,255,0.85);margin:0 0 28px;max-width:640px}
-.expert .btn{display:inline-flex;align-items:center;gap:10px;height:48px;padding:0 32px;background:transparent;color:#fff;font-family:'Mesmerize',sans-serif;font-weight:300;font-size:16px;line-height:20px;letter-spacing:0;text-transform:uppercase;border:0.5px solid #fff;cursor:pointer;transition:.25s}
+.expert .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;height:48px;padding:0 32px;background:transparent;color:#fff;font-family:'Mesmerize',sans-serif;font-weight:300;font-size:16px;line-height:20px;letter-spacing:0;text-transform:uppercase;border:0.5px solid #fff;cursor:pointer;transition:.25s}
 .expert .btn:hover{background:rgba(255,255,255,0.14)} /* colour only, no move */
 
 /* FOOTER */
@@ -165,7 +165,7 @@ footer{background:var(--paper);padding:40px 0 80px;color:var(--mute);font-size:1
   .faq-q{font-size:18px;line-height:26px}
   .faq-a-in{padding-right:0}
   .foot-grid{grid-template-columns:1fr}.foot-col{padding-top:0}
-  footer{padding:40px 0 64px}.back-top{display:none}
+  footer{padding:40px 0 64px}.back-top{right:24px;top:32px}
   .expert{padding:56px 24px;min-height:auto}.expert h2{font-size:24px;line-height:36px}
 }
 /* Mobile: the tabs stay on ONE row and scroll horizontally, same pattern as the Knowledge Center */
@@ -182,6 +182,7 @@ footer{background:var(--paper);padding:40px 0 80px;color:var(--mute);font-size:1
 @media (max-width:680px){
   .help h2,.expert h2{white-space:nowrap;font-size:clamp(16px,5.8vw,28px);line-height:1.25}
   .help .btn-ghost,.help .btn,.expert .btn,.expert .btn-ghost{width:100%}
+  .expert h2{white-space:normal}
 }</style>
 </head>
 <body>
